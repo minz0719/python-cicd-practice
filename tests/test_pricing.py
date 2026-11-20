@@ -39,3 +39,7 @@ def test_invalid_discount(discount):
 
 def test_discount():
     assert final_total(10_000, 2, 10) == 21_000
+
+
+def test_subtotal_large_order():
+    assert subtotal(10000, 10) == 100000
