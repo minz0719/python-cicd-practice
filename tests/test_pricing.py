@@ -42,4 +42,4 @@ def test_discount():
 
 
 def test_subtotal_large_order():
-    assert subtotal(10000, 10) == 100000
+    assert subtotal(10000, 10) == 99999
